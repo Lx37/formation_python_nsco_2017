@@ -12,14 +12,15 @@ Notebooks:
     * scipy_base David ou Manu
     * jupyter_intro Sam (si temps)
   * Mercredi:
-    * file_manipulation:David, Manu
+    * file_manipulation: David ou Manu
+    * reg_exp, glob: Manu ou David
   * Jeudi:
     * pandas_base Sam
     * pandas_exo Sam+David
-    * seaborn_base Sam
+    * seaborn_base Sam 
   * Vendredi:
     * formule R : Manu
-    * statsmodel: david
+    * statsmodel: David
     * rpy: Sam si temps
 
   
