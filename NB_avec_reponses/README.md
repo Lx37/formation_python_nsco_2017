@@ -2,23 +2,25 @@
 
 Notebooks:
   * Lundi:
-    * Base_language
-    * loop_index_slice
-    * numpy_base
-    * numpy_indexing
+    * Base_language Sam
+    * loop_index_slice Manu
+    * numpy_base Manu
+    * numpy_indexing David
   * Mardi:
-    * numpy_concatenate
-    * matplotlib_base
-    * scipy_base
-    * jupyter_intro
+    * numpy_concatenate David
+    * matplotlib_base Sam
+    * scipy_base David ou Manu
+    * jupyter_intro Sam (si temps)
   * Mercredi:
-    * file_manipulation
+    * file_manipulation:David, Manu
   * Jeudi:
-    * pandas_base
-    * pandas_exo
-    * seaborn_base
+    * pandas_base Sam
+    * pandas_exo Sam+David
+    * seaborn_base Sam
   * Vendredi:
-    * pyhton_and_R
+    * formule R : Manu
+    * statsmodel: david
+    * rpy: Sam si temps
 
   
   
