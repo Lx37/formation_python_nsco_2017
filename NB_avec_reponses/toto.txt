@@ -1,0 +1,2 @@
+J'ecris du texte dans mon fichier toto
+et la je passe a la ligne suivante
