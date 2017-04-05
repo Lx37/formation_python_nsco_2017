@@ -1,35 +1,36 @@
 Notebooks:
     
-  * Lundi:
+  * Lundi AM:
     * Base_language Sam
     * loop_index_slice Manu
-    
-    Si groupe:
-        
+  
+  * Lundi PM:
     * numpy_base Sam
     * numpy_indexing David
     
-    * rattrapage python base lundi apres-midi Manu
+    Si groupe:
+    * rattrapage python base Manu
     
-  * Mardi:
+  * Mardi AM
     * numpy_concatenate David
     * matplotlib_base Sam
     
+    Si groupe:
     * rattrapage python algorithmique Manu
-    
+  * Mardi PM (sans David si possible):
     * scipy_base Manu
     * jupyter_intro Sam (si temps)
     
-  * Mercredi:
+  * Mercredi (sans Sam si possible):
     * file_manipulation: David - with open, print dans un file, readline/readlines, read, csv, numpy
     * reg_exp, glob: Manu, lister des fichiers (equivalent d'un grep), os.join.path, .abspath, module os et module glob 
     
-  * Jeudi:
+  * Jeudi (sans Manu si possible):
     * pandas_base Sam
     * pandas_exo Sam+David
     * seaborn_base Sam 
     
-  * Vendredi:
+  * Vendredi (sans Manu si possible...):
     * formule R : David
     * statsmodel: David
     * rpy: Sam si temps
