@@ -23,16 +23,17 @@ Notebooks:
     * reg_exp, glob: Manu, lister des fichiers (equivalent d'un grep), os.join.path, .abspath, module os et module glob 
     
   * Mercredi (sans David si possible):
-    * jupyter_intro Sam (markdown, explication de l'interet du notebook)
-    * scipy_base Manu (rapidement)
-    * pandas base Sam
+    * jupyter_intro Sam (markdown, explication de l'interet du notebook, 30min)
+    * scipy_base Manu (rapidement 30 min)
+    * pandas base (2h) Sam
     
   * Jeudi (sans Manu si possible):
     * pandas_exo David
     * seaborn_base Sam 
+    * formule R : David
     
   * Vendredi (sans Manu si possible...):
-    * formule R : David
-    * statsmodel: David
-    * rpy: Sam si temps
+    * statsmodel: David (rapidement)
+    * rpy: Sam (rapidement)
+    * exo integre Sam
     
