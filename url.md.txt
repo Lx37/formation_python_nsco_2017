@@ -1,0 +1,5 @@
+Pour apprendre tout seul:
+  * www.opentechschool.org
+  * http://www.scipy-lectures.org/
+  * http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+  * https://bitbucket.org/lothiraldan/presentations/src/27b389b125fe/AtelierPythonUTBM/?at=default
