@@ -1,68 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
   <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" type="text/css" media="screen, projection, print"
-    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
-  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
-    charset="utf-8" type="text/javascript"></script>
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  	.reveal {
+  	  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  	  font-size: 25px;
+  	  font-weight: normal;
+  	  color: #222; }
+  	.reveal h1 { font-size: 1.5em; }
+  	.reveal li { font-size: 1.0em; }
+  	.reveal p { font-size: 1.0em; }
+      .reveal table { font-size: 1.0em; }
+  	.reveal section img { background:none; border:none; box-shadow:none; }
+  	.reveal p {
+  		margin: 5px 0;
+  		line-height: 1.; 
+  		}
+  </style>
 </head>
 <body>
-<div id="python" class="slide section level1">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="python" class="slide level1">
 <h1>Python</h1>
-<div class="figure">
-<img src="http://i.imgur.com/bc2xk.png" alt="python" />
-<p class="caption">python</p>
-</div>
-</div>
-<div id="programme-des-5-jours" class="slide section level1">
+<figure>
+<img src="http://i.imgur.com/bc2xk.png" alt="python" /><figcaption>python</figcaption>
+</figure>
+</section>
+<section id="programme-des-5-jours" class="slide level1">
 <h1>Programme des 5 jours:</h1>
 <ul>
 <li>Lundi 24 avril 2017 (matin et après-midi):
 <ul>
 <li>Installation (distribution Anaconda + packages)</li>
 <li>Bases de la programmation Python</li>
+<li>Calcul scientifique : Base numpy</li>
 </ul></li>
 <li>Mardi 25 avril 2017 (matin et après-midi)
 <ul>
-<li>Calcul scientifique : modules NumPy, SciPy</li>
+<li>Calcul scientifique : NumPy</li>
 <li>Visualisation : module Matplotlib</li>
+<li>Manipulation de fichiers</li>
+<li>Manipulation de répertoire (os, glob, re)</li>
 </ul></li>
+</ul>
+</section>
+<section id="programme-des-5-jours-suite" class="slide level1">
+<h1>Programme des 5 jours (suite):</h1>
+<ul>
 <li>Mercredi 26 avril 2017 (matin)
 <ul>
-<li>Manipulation de fichiers: os, glob, re *Cas pratiques</li>
+<li>jupyter notebook</li>
+<li>scipy</li>
+<li>pandas</li>
 </ul></li>
 <li>Jeudi 27 avril 2017 (matin):
 <ul>
-<li>Pandas (manipulation de dataframe + Titanic dataset)</li>
+<li>Pandas suite</li>
 <li>Seaborn (visualisation de données statistiques)</li>
 </ul></li>
-<li>Vendredi 28 avril 2017 (matin):</li>
-<li>Interfaçage Python/R software et équivalence dans StatsModels</li>
+<li>Vendredi 28 avril 2017 (matin):
+<ul>
+<li>stat en python avec StatsModel</li>
+<li>Interfaçage Python/R software rpy2</li>
+<li>exo final</li>
+</ul></li>
 </ul>
-</div>
-<div id="pour-anticiper-les-réclamantions" class="slide section level1">
+</section>
+<section id="pour-anticiper-les-réclamantions" class="slide level1">
 <h1>Pour anticiper les réclamantions</h1>
 <ul>
 <li>ça va aller un trop vite</li>
 <li>les support de court sont légers.</li>
 <li>tout ne va pas vous être utile.</li>
 </ul>
-</div>
-<div id="en-revanche" class="slide section level1">
+</section>
+<section id="en-revanche" class="slide level1">
 <h1>En revanche:</h1>
 <ul>
 <li>il existe de très bon support de court</li>
 <li>les formateurs sont des beaux gosses</li>
 </ul>
-</div>
-<div id="historique" class="slide section level1">
+</section>
+<section id="historique" class="slide level1">
 <h1>Historique</h1>
 <ul>
 <li>Créer en 1989 par Guido Van Rossum.</li>
@@ -72,8 +114,8 @@
 <li>Aujourd'hui 6e language</li>
 <li>Aujourd'hui 1er language pour l'analyse de donnée.</li>
 </ul>
-</div>
-<div id="pourquoi-python" class="slide section level1">
+</section>
+<section id="pourquoi-python" class="slide level1">
 <h1>Pourquoi python:</h1>
 <ul>
 <li>language ancien donc mur</li>
@@ -87,8 +129,8 @@
 <li>y'a tout</li>
 <li>communauté qui fait dons de ses codes.</li>
 </ul>
-</div>
-<div id="utilisateurs-de-python" class="slide section level1">
+</section>
+<section id="utilisateurs-de-python" class="slide level1">
 <h1>Utilisateurs de python</h1>
 <ul>
 <li>Google</li>
@@ -96,8 +138,8 @@
 <li>Instagram</li>
 <li>Nous</li>
 </ul>
-</div>
-<div id="idée-en-vrac" class="slide section level1">
+</section>
+<section id="idée-en-vrac" class="slide level1">
 <h1>Idée en vrac</h1>
 <ul>
 <li>un language <strong>inteprété</strong></li>
@@ -107,11 +149,11 @@
 <li>Il existe plusieur interpréteur (CPython, IronPython, PyPy, Jython)</li>
 <li>On utilise le plus connu CPython</li>
 </ul>
-</div>
-<div id="installation" class="slide section level1">
+</section>
+<section id="installation" class="slide level1">
 <h1>Installation</h1>
-</div>
-<div id="cest-pas-si-facile-car" class="slide section level1">
+</section>
+<section id="cest-pas-si-facile-car" class="slide level1">
 <h1>C'est pas si facile car:</h1>
 <ul>
 <li>Il y a plusieurs version 2.7 et 3.5, 3.6, on ne sait pas laquelle choisir.</li>
@@ -122,8 +164,8 @@
 <li>parfois c'est sur github</li>
 <li>arbre de dépendance complexe.</li>
 </ul>
-</div>
-<div id="sous-osx" class="slide section level1">
+</section>
+<section id="sous-osx" class="slide level1">
 <h1>Sous OSX</h1>
 <ul>
 <li>il y a déjà python mais pas les numpy, scipy, Qt</li>
@@ -131,16 +173,16 @@
 <li>macport</li>
 <li>conda</li>
 </ul>
-</div>
-<div id="sous-windows" class="slide section level1">
+</section>
+<section id="sous-windows" class="slide level1">
 <h1>Sous windows</h1>
 <ul>
 <li>python.org + http://www.lfd.uci.edu/~gohlke/pythonlibs/</li>
 <li>winpython (choix à Gerland)</li>
 <li>conda</li>
 </ul>
-</div>
-<div id="sous-linux-ubuntu-debian" class="slide section level1">
+</section>
+<section id="sous-linux-ubuntu-debian" class="slide level1">
 <h1>sous linux (ubuntu, debian)</h1>
 <ul>
 <li>c'est déjà installé</li>
@@ -153,29 +195,51 @@
   pip3 install numpy</code></pre></li>
 <li><p>conda</p></li>
 </ul>
-</div>
-<div id="environement-virtuel" class="slide section level1">
+</section>
+<section id="environement-virtuel" class="slide level1">
 <h1>Environement virtuel</h1>
 <ul>
 <li>permet pour chaque projet de choisir une version de python + chaque librairie</li>
 <li>conda intègre les environement virtuel</li>
 </ul>
-</div>
-<div id="installation-de-conda." class="slide section level1">
+</section>
+<section id="installation-de-conda." class="slide level1">
 <h1>Installation de conda.</h1>
 <ul>
 <li><p>Installer le paquet seaborn</p>
 <pre><code>  conda install seaborn</code></pre></li>
 </ul>
-</div>
-<div id="url-à-lire-tout-seul" class="slide section level1">
+</section>
+<section id="url-à-lire-tout-seul" class="slide level1">
 <h1>URL à lire tout seul</h1>
 <ul>
 <li>www.opentechschool.org</li>
 <li>http://www.scipy-lectures.org/</li>
 <li>http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/</li>
-<li>http://feldboris.alwaysdata.net/blog/pages/presentations/AtelierPythonUTBM/#slide45</li>
+<li>https://bitbucket.org/lothiraldan/presentations/src/27b389b125fe/AtelierPythonUTBM/?at=default</li>
 </ul>
-</div>
-</body>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Transition style
+        transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
 </html>

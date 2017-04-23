@@ -14,24 +14,34 @@
   * Lundi 24 avril 2017 (matin et après-midi):
     * Installation (distribution Anaconda + packages)
     * Bases de la programmation Python
+    * Calcul scientifique : Base numpy
 
   * Mardi 25 avril 2017 (matin et après-midi)
-    *  Calcul scientifique : modules NumPy, SciPy
+    * Calcul scientifique : NumPy
     * Visualisation : module Matplotlib
+    * Manipulation de fichiers
+    * Manipulation de répertoire (os, glob, re)
+
+    
+------------------
+
+
+# Programme des 5 jours (suite):
 
   * Mercredi 26 avril 2017 (matin)
-    *  Manipulation de fichiers: os, glob, re
-    *Cas pratiques
+    * jupyter notebook
+    * scipy
+    * pandas
 
   * Jeudi 27 avril 2017 (matin):
-    * Pandas (manipulation de dataframe + Titanic dataset)
+    * Pandas suite
     * Seaborn (visualisation de données statistiques)
 
   * Vendredi 28 avril 2017 (matin):
-   * Interfaçage Python/R software et équivalence dans StatsModels
+    * stat en python avec StatsModel
+    * Interfaçage Python/R software rpy2
+    * exo final
 
-
- 
 
 
 
