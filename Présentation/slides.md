@@ -176,7 +176,7 @@
   * www.opentechschool.org
   * http://www.scipy-lectures.org/
   * http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
-  * http://feldboris.alwaysdata.net/blog/pages/presentations/AtelierPythonUTBM/#slide45
+  * https://bitbucket.org/lothiraldan/presentations/src/27b389b125fe/AtelierPythonUTBM/?at=default
 
 
 
