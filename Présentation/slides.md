@@ -83,6 +83,7 @@
   * facile à enseigner
   * y'a tout
   * communauté qui fait dons de ses codes.
+  * C'est un language de gauche
 
 
 ------------------
